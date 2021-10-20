@@ -1,4 +1,4 @@
-local maxVelocity = 11784960000 -- Default is exactly: 4000
+local maxVelocity = 150000 -- Default is exactly: 4000
 local maxAngularVelocity = 100000 -- Default is exactly: 7272.7280273438
 
 hook.Add( "InitPostEntity", "CFC_SpeedLimits_Setup", function()
